@@ -213,7 +213,7 @@
 					should probably read, “WWAAW," Writers Who Are Also Women. </p>
 				<p> This is not the only collection of such writers that could be made. It is
 					limited in scope by the writers actually interviewed to date by The Paris
-					Review. Thus, although there are writers from the United States, Ireland,
+					Review. Thus, although there are writers from the United States, <placeName key="Ireland" ref="https://sws.geonames.org/2963597" ana="webannotation:http://temp.lincsproject.ca/m8y14AeLcpt">Ireland</placeName>,
 					England, Denmark, and South Africa, there are none here from, for instance,
 					India or Australia or Canada or Latin America: no Alice Munro, no Anita Desai,
 					no <persName key="Allende, Isabel, 1942-" ref="http://viaf.org/viaf/61556825" ana="webannotation:http://temp.lincsproject.ca/EiQHFI7h7j2">Isabel Allende</persName>. As this assemblage is unisexual, so is it uni-colored: thus
@@ -775,6 +775,95 @@
         "type": "crm:E21_Person",
         "label": "Morris, Jan, 1926-2020.",
         "description": "Morris, Jan, 1926-"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/m8y14AeLcpt">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/m8y14AeLcpt",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-12T00:21:55.142Z",
+    "creator": {
+        "id": "https://github.com/laowaihang",
+        "type": "crm:E21_Person",
+        "name": "Arnd Hafner"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/saGYqbZ4QDZ",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/Laowaihang/TEI2026/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/Laowaihang/TEI2026/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/saGYqbZ4QDZ/selector/textPosition/L3czZfitUmj",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 13571,
+                "end": 13578,
+                "refinedBy": {
+                    "id": "/target/saGYqbZ4QDZ/selector/textQuote/TENijL1DX7R",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Ireland",
+                    "prefix": " Thus, although there are writers from the United States,",
+                    "suffix": "\n\t\t\t\t\tEngland, Denmark, and South Africa, there are none here from, for instance,\n\t\t\t\t\tIndia or Australia or Canada or Latin America: no Alice Munro, no Anita Desai,\n\t\t\t\t\tno Isabel Allende"
+                }
+            },
+            {
+                "id": "/target/saGYqbZ4QDZ/selector/css/HvzIF9wTH09",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/m8y14AeLcpt]"
+            }
+        ]
+    },
+    "body": {
+        "id": "https://sws.geonames.org/2963597",
+        "type": "crm:E53_Place",
+        "label": "Ireland",
+        "description": "null, IE"
     },
     "P2_has_type": [
         "oa:identifying"
