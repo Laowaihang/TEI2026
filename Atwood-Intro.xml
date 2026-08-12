@@ -216,7 +216,7 @@
 					Review. Thus, although there are writers from the United States, Ireland,
 					England, Denmark, and South Africa, there are none here from, for instance,
 					India or Australia or Canada or Latin America: no Alice Munro, no Anita Desai,
-					no Isabel Allende. As this assemblage is unisexual, so is it uni-colored: thus
+					no <persName key="Allende, Isabel, 1942-" ref="http://viaf.org/viaf/61556825" ana="webannotation:http://temp.lincsproject.ca/EiQHFI7h7j2">Isabel Allende</persName>. As this assemblage is unisexual, so is it uni-colored: thus
 					far no Toni Morrison, no Alice Walker, no Louise Erdrich. Nor are there many
 					writers who are known for an explicit and self-aware examination of the more
 					colonial features of the relationships between men as a group and women: no
@@ -775,6 +775,95 @@
         "type": "crm:E21_Person",
         "label": "Morris, Jan, 1926-2020.",
         "description": "Morris, Jan, 1926-"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/EiQHFI7h7j2">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/EiQHFI7h7j2",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-12T00:21:39.341Z",
+    "creator": {
+        "id": "https://github.com/laowaihang",
+        "type": "crm:E21_Person",
+        "name": "Arnd Hafner"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/wW1Xz68QOBq",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/Laowaihang/TEI2026/main/Atwood-Intro.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/Laowaihang/TEI2026/main/Atwood-Intro.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/wW1Xz68QOBq/selector/textPosition/XHjAGILcSmv",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 13753,
+                "end": 13767,
+                "refinedBy": {
+                    "id": "/target/wW1Xz68QOBq/selector/textQuote/sq7YB0XWqP4",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Isabel Allende",
+                    "prefix": " Thus, although there are writers from the United States, Ireland,\n\t\t\t\t\tEngland, Denmark, and South Africa, there are none here from, for instance,\n\t\t\t\t\tIndia or Australia or Canada or Latin America: no Alice Munro, no Anita Desai,\n\t\t\t\t\tno",
+                    "suffix": " As this assemblage is unisexual, so is it uni-colored: thus\n\t\t\t\t\tfar no Toni Morrison, no Alice Walker, no Louise Erdrich"
+                }
+            },
+            {
+                "id": "/target/wW1Xz68QOBq/selector/css/7vOE0RAHoog",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/EiQHFI7h7j2]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/61556825",
+        "type": "crm:E21_Person",
+        "label": "Allende, Isabel, 1942-",
+        "description": "Allende, Isabel"
     },
     "P2_has_type": [
         "oa:identifying"
